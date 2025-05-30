@@ -11,7 +11,7 @@ public class Main {
         inventory.addInventory("sanchi", "curd", 200, 1);
 
         inventory.printInventory();
-        System.out.println("---------------------------------");
+        System.out.println("--------------------------------");
         inventory.printSortedInventory("category", "asc");
         System.out.println("--------------------------------");
         inventory.printSortedInventory("category", "desc");
